@@ -62,7 +62,7 @@ You can find the file for the analysis here : [Superstore_sales_and_returns_anal
 - **SUMIFS (Profit Margin Calculation)**
   ```excel
   =SUMIFS(Sales_Returns[Profit], Sales_Returns[Region], A2, Sales_Returns[Returned], "") / 
- SUMIFS(Sales_Returns[Sales], Sales_Returns[Region], A2, Sales_Returns[Returned], "")
+  SUMIFS(Sales_Returns[Sales], Sales_Returns[Region], A2, Sales_Returns[Returned], "")
  
 ## The Analysis
 My Approach was to inspect the data treat it as an actual real life task and create the questions based on real life propable objective or issues to point out and recommend an insight at the end.
